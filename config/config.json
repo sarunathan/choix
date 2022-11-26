@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "what2watch",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+      "defaultScope": {
+         "attributes": { "exclude": [ "createdAt", "updatedAt"] }
+      },
+      "timestamps": false 
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
