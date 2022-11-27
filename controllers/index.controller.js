@@ -47,6 +47,10 @@ const Sequelize = require('sequelize');
                         })
                     });
                 })
+                .catch(err => {
+                    console.log(err);
+                    res.send({"err": "something went wrong"});
+                })
         }
     })
     .catch((err) => {
