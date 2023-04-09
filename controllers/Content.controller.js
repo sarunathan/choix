@@ -27,9 +27,7 @@ const Sequelize = require('sequelize');
                 voteCount : 0,
                 upvote: 0,
                 downvote: 0,
-                genre: null,
-                status: 1,
-                ott: null
+                status: 1
             },
         })
         .then(data =>{

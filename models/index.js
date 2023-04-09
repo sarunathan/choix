@@ -34,6 +34,7 @@ db['content'] = sequelize.define('content', {
   expiry: DataTypes.DATE,
   status: DataTypes.BOOLEAN,
   ott: DataTypes.STRING,
+  imdb: DataTypes.FLOAT,
   image: DataTypes.STRING
 })
 
